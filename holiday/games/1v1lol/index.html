@@ -330,4 +330,16 @@
     <script src="js/adblockManager.js"></script>
     <script src="js/macUserAgent.js"></script>
     <script src="js/visibilityChangeListener.js"></script>
+    <script>
+      function onUnityReady() {
+        checkAdBlock();
+        sendConfig();
+      }
+
+      fixMacUserAgent();
+    </script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
+<script>
     
